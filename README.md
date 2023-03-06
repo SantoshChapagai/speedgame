@@ -22,3 +22,7 @@
 - appears when the game ended
 - shows the score the player able to get
 - conditions based on the score
+
+#### link to play game
+- https://public.bc.fi/s2300121/speedgame/
+
