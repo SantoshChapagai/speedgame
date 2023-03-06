@@ -105,6 +105,7 @@ button {
     display: none;
 }
 
+/* for mobile phones */
 @media(max-width:576px) {
     .circles {
         display: flex;
