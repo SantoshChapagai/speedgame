@@ -11,12 +11,15 @@ let timer
 let pace = 2000
 let rounds = 0
 const startSound = new Audio('sounds/start.mp3')
+const playSound = new Audio('sounds/click.mp3')
 const endSound = new Audio('sounds/end.mp3')
 circles.forEach((circle, i) => {
   circle.addEventListener('click', () => clickCircle(i))
 })
 const getRndInt = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min
 const clickCircle = (i) => {
+  playSound.play()
+  startSound.pause()
   if (i !== active) {
     return endGame()
   }
